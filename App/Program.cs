@@ -1,5 +1,5 @@
 ﻿Arreglos.Pilas pila = new Arreglos.Pilas(10);
-Arreglos.Colas cola = new Arreglos.Colas(10);
+Arreglos.Colas cola = new Arreglos.Colas(6);
 
 Console.WriteLine(cola.ObtenerDatos());
 Console.WriteLine("-------");
@@ -15,6 +15,13 @@ Console.WriteLine("-------");
 cola.Eliminar();
 Console.WriteLine(cola.ObtenerDatos());
 Console.WriteLine("-------");
+cola.Eliminar();
+Console.WriteLine(cola.ObtenerDatos());
+Console.WriteLine("-------");
+cola.Eliminar();
+cola.Eliminar();
+cola.Eliminar();
+cola.Eliminar();
 cola.Eliminar();
 Console.WriteLine(cola.ObtenerDatos());
 Console.WriteLine("-------");

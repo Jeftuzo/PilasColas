@@ -10,23 +10,24 @@ namespace Arreglos
     public class Colas
     {
         private string[] _arreglo;
-        private int _actual;
         private int _principio;
+        private int _final;
+        private int _max;
         public Colas(int tamaño)
         {
             _arreglo = new string[tamaño];
-            _actual = 0;
             _principio = 0;
-
+            _final = 0;
+            _max = _arreglo.Length - 1;
         }
         private bool EstaVacio()
         {
-            return (_actual == 0);
+            return ((_principio < 1 && _final < 1)
+                || _principio == _final + 1);
         }
         private bool EstaLleno()
         {
-            int max = _arreglo.Length;
-            return (_actual == max);
+            return (_final > _max);
         }
         public string ObtenerDatos() { 
          StringBuilder datos = new StringBuilder();
@@ -46,8 +47,8 @@ namespace Arreglos
             {
                 throw new Exception("No hay espacio suficiente");
             }
-            _arreglo[_actual] = dato;
-            _actual++;
+            _arreglo[_final] = dato;
+            _final++;
         }
         public void Eliminar()
         {
