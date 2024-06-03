@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Listas
 {
-    public class Pilas
+    public class Colas
     {
         private List<string> _list;
-        public Pilas()
+        public Colas()
         {
             _list = new List<string>();
         }
@@ -27,7 +27,7 @@ namespace Listas
             {
                 throw new Exception("Lista vacio");
             }
-            _list.RemoveAt(_list.Count - 1);
+            _list.RemoveAt(0);
         }
         public string Imprimir()
         {
@@ -50,6 +50,7 @@ namespace Listas
                 return dato;
             }
         }
+
         public string ObtenerDatos()
         {
             StringBuilder datos = new StringBuilder();
