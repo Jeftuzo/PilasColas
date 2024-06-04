@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arreglos", "Arreglos\Arregl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "App\App.csproj", "{779CF0AB-1223-4F9F-97A9-BFF4AB550E47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{F4F912E0-576F-4910-B7F6-8B772BE7AFAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Listas", "Listas\Listas.csproj", "{F4F912E0-576F-4910-B7F6-8B772BE7AFAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desktop", "Desktop\Desktop.csproj", "{F47B5EF4-7434-45C2-9F67-5DE25576D25C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F4F912E0-576F-4910-B7F6-8B772BE7AFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4F912E0-576F-4910-B7F6-8B772BE7AFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4F912E0-576F-4910-B7F6-8B772BE7AFAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47B5EF4-7434-45C2-9F67-5DE25576D25C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47B5EF4-7434-45C2-9F67-5DE25576D25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47B5EF4-7434-45C2-9F67-5DE25576D25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47B5EF4-7434-45C2-9F67-5DE25576D25C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
