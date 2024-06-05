@@ -9,8 +9,13 @@ namespace Desktop
 
         private void btnArreglos_Click(object sender, EventArgs e)
         {
-            FrmArreglosPilas frmArreglosPilas = new FrmArreglosPilas();
-            frmArreglosPilas.ShowDialog();
+
         }
+
+        //        private void btnArreglos_Click(object sender, EventArgs e)
+        //      {
+        //          FrmArreglosPilas frmArreglosPilas = new FrmArreglosPilas();
+        //          frmArreglosPilas.ShowDialog();
+        //      }
     }
 }
