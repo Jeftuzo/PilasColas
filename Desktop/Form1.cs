@@ -7,10 +7,16 @@ namespace Desktop
             InitializeComponent();
         }
 
-        private void btnArreglos_Click(object sender, EventArgs e)
+        private void btnArreglosPilas_Click(object sender, EventArgs e)
         {
             FrmArreglosPilas frmArreglosPilas = new FrmArreglosPilas();
             frmArreglosPilas.ShowDialog();
+        }
+
+        private void btnArreglosColas_Click(object sender, EventArgs e)
+        {
+            FrmArreglosColas frmArreglosColas = new FrmArreglosColas();
+            frmArreglosColas.ShowDialog();
         }
     }
 }

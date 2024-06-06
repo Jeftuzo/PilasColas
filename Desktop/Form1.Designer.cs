@@ -28,36 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnArreglos = new Button();
+            btnArreglosPilas = new Button();
             btnListas = new Button();
+            btnArreglosColas = new Button();
             SuspendLayout();
             // 
-            // btnArreglos
+            // btnArreglosPilas
             // 
-            btnArreglos.Location = new Point(60, 53);
-            btnArreglos.Name = "btnArreglos";
-            btnArreglos.Size = new Size(94, 29);
-            btnArreglos.TabIndex = 0;
-            btnArreglos.Text = "Arreglos";
-            btnArreglos.UseVisualStyleBackColor = true;
-            btnArreglos.Click += btnArreglos_Click;
+            btnArreglosPilas.Location = new Point(52, 40);
+            btnArreglosPilas.Margin = new Padding(3, 2, 3, 2);
+            btnArreglosPilas.Name = "btnArreglosPilas";
+            btnArreglosPilas.Size = new Size(92, 30);
+            btnArreglosPilas.TabIndex = 0;
+            btnArreglosPilas.Text = "ArreglosPilas";
+            btnArreglosPilas.UseVisualStyleBackColor = true;
+            btnArreglosPilas.Click += btnArreglosPilas_Click;
             // 
             // btnListas
             // 
-            btnListas.Location = new Point(60, 122);
+            btnListas.Location = new Point(52, 92);
+            btnListas.Margin = new Padding(3, 2, 3, 2);
             btnListas.Name = "btnListas";
-            btnListas.Size = new Size(94, 29);
+            btnListas.Size = new Size(82, 22);
             btnListas.TabIndex = 0;
             btnListas.Text = "Listas";
             btnListas.UseVisualStyleBackColor = true;
             // 
+            // btnArreglosColas
+            // 
+            btnArreglosColas.Location = new Point(171, 40);
+            btnArreglosColas.Margin = new Padding(3, 2, 3, 2);
+            btnArreglosColas.Name = "btnArreglosColas";
+            btnArreglosColas.Size = new Size(94, 30);
+            btnArreglosColas.TabIndex = 0;
+            btnArreglosColas.Text = "ArreglosColas";
+            btnArreglosColas.UseVisualStyleBackColor = true;
+            btnArreglosColas.Click += btnArreglosColas_Click;
+            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(btnListas);
-            Controls.Add(btnArreglos);
+            Controls.Add(btnArreglosColas);
+            Controls.Add(btnArreglosPilas);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -65,7 +81,8 @@
 
         #endregion
 
-        private Button btnArreglos;
+        private Button btnArreglosPilas;
         private Button btnListas;
+        private Button btnArreglosColas;
     }
 }
