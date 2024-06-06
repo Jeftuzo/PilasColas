@@ -34,10 +34,9 @@
             // 
             // btnArreglos
             // 
-            btnArreglos.Location = new Point(52, 40);
-            btnArreglos.Margin = new Padding(3, 2, 3, 2);
+            btnArreglos.Location = new Point(60, 53);
             btnArreglos.Name = "btnArreglos";
-            btnArreglos.Size = new Size(82, 22);
+            btnArreglos.Size = new Size(94, 29);
             btnArreglos.TabIndex = 0;
             btnArreglos.Text = "Arreglos";
             btnArreglos.UseVisualStyleBackColor = true;
@@ -45,22 +44,20 @@
             // 
             // btnListas
             // 
-            btnListas.Location = new Point(52, 92);
-            btnListas.Margin = new Padding(3, 2, 3, 2);
+            btnListas.Location = new Point(60, 122);
             btnListas.Name = "btnListas";
-            btnListas.Size = new Size(82, 22);
+            btnListas.Size = new Size(94, 29);
             btnListas.TabIndex = 0;
             btnListas.Text = "Listas";
             btnListas.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(700, 338);
+            ClientSize = new Size(800, 450);
             Controls.Add(btnListas);
             Controls.Add(btnArreglos);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
